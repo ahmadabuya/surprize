@@ -135,35 +135,35 @@ export default function RomanticBirthdaySurprise() {
             <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-3">
               {[
                 {
-                  img: "/images/1.jpg",
+                  img: "/images/1.webp",
                   text: "ku ingin selalu bersama ❤️",
                 },
                 {
-                  img: "/images/2.jpg",
+                  img: "/images/2.webp",
                   text: "Senyummu selalu bikin aku bahagia 😍",
                 },
                 {
-                  img: "/images/3.jpg",
+                  img: "/images/3.webp",
                   text: "Semua perjalanan bersamamu sangat indah ✨",
                 },
                 {
-                  img: "/images/4.jpg",
+                  img: "/images/4.webp",
                   text: "Moment tertawa bareng yang gak akan kulupa 😂",
                 },
                 {
-                  img: "/images/5.jpg",
+                  img: "/images/5.webp",
                   text: "Hari spesial saat kita menikah 💍",
                 },
                 {
-                  img: "/images/6.jpg",
+                  img: "/images/6.webp",
                   text: "Moment pernikahan kita yang paling bahagia 👰🤵",
                 },
                 {
-                  img: "/images/7.jpg",
+                  img: "/images/7.webp",
                   text: "Terima kasih sudah jadi rumah terbaik ❤️",
                 },
                 {
-                  img: "/images/8.jpg",
+                  img: "/images/8.webp",
                   text: "Aku ingin menua bersamamu selamanya 💖",
                 },
               ].map((item, i) => (

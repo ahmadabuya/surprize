@@ -44,44 +44,7 @@ export default function RomanticBirthdaySurprise() {
     }
   };
 
-  // SMOOTH AUTO SCROLL
-  const autoScroll = () => {
-    let start: number | null = null;
-
-    const duration = 12000;
-
-    const startPosition = window.scrollY;
-
-    const targetPosition =
-      document.body.scrollHeight - window.innerHeight;
-
-    const animateScroll = (timestamp: number) => {
-      if (!start) start = timestamp;
-
-      const progress = timestamp - start;
-
-      const easeInOutQuad = (t: number) =>
-        t < 0.5
-          ? 2 * t * t
-          : 1 - Math.pow(-2 * t + 2, 2) / 2;
-
-      const percentage = Math.min(progress / duration, 1);
-
-      const easedPercentage = easeInOutQuad(percentage);
-
-      const position =
-        startPosition +
-        (targetPosition - startPosition) * easedPercentage;
-
-      window.scrollTo(0, position);
-
-      if (progress < duration) {
-        requestAnimationFrame(animateScroll);
-      }
-    };
-
-    requestAnimationFrame(animateScroll);
-  };
+  
 
   const handleSurprise = async () => {
     setShowSurprise(true);
@@ -93,9 +56,6 @@ export default function RomanticBirthdaySurprise() {
         behavior: "smooth",
       });
 
-      setTimeout(() => {
-        autoScroll();
-      }, 1000);
     }, 300);
   };
 
@@ -192,7 +152,7 @@ export default function RomanticBirthdaySurprise() {
                 },
                 {
                   img: "/images/5.jpg",
-                  text: "Hari spesial saat kita lamaran 💍",
+                  text: "Hari spesial saat kita menikah 💍",
                 },
                 {
                   img: "/images/6.jpg",

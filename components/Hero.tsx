@@ -180,11 +180,31 @@ export default function RomanticBirthdaySurprise() {
                 },
                 {
                   img: "/images/2.jpg",
-                  text: "Moment paling bahagia 😍",
+                  text: "Senyummu selalu bikin aku bahagia 😍",
                 },
                 {
                   img: "/images/3.jpg",
-                  text: "Dan aku ingin selamanya bersamamu 💍",
+                  text: "Semua perjalanan bersamamu sangat indah ✨",
+                },
+                {
+                  img: "/images/4.jpg",
+                  text: "Moment tertawa bareng yang gak akan kulupa 😂",
+                },
+                {
+                  img: "/images/5.jpg",
+                  text: "Hari spesial saat kita lamaran 💍",
+                },
+                {
+                  img: "/images/6.jpg",
+                  text: "Moment pernikahan kita yang paling bahagia 👰🤵",
+                },
+                {
+                  img: "/images/7.jpg",
+                  text: "Terima kasih sudah jadi rumah terbaik ❤️",
+                },
+                {
+                  img: "/images/8.jpg",
+                  text: "Aku ingin menua bersamamu selamanya 💖",
                 },
               ].map((item, i) => (
                 <div
@@ -243,7 +263,7 @@ export default function RomanticBirthdaySurprise() {
 
       {/* MUSIC */}
       <audio ref={audioRef} loop>
-        <source src="/music/romantic.mp3" type="audio/mp3" />
+        <source src="/music/romantic.wav" type="audio/mp3" />
       </audio>
 
       <style jsx>{`
